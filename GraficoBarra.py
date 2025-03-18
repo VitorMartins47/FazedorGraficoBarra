@@ -14,6 +14,8 @@ for i in range(n):
 for i in range(n):
     valor = str(input(f"Digite o valor {i+1}: "))
     valores.append(valor)
+
+
     
 plt.bar(categorias, valores)
 plt.show()
