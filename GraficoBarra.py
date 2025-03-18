@@ -12,7 +12,7 @@ for i in range(n):
     categorias.append(categoria)
 
 for i in range(n):
-    valor = int(input(f"Digite o valor {i+1}: "))
+    valor = str(input(f"Digite o valor {i+1}: "))
     valores.append(valor)
     
 plt.bar(categorias, valores)
